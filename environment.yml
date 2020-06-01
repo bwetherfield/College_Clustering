@@ -5,6 +5,7 @@ dependencies:
   - appnope=0.1.0=py37_0
   - attrs=19.3.0=py_0
   - backcall=0.1.0=py37_0
+  - beautifulsoup4=4.9.0=py37_0
   - blas=1.0=mkl
   - bleach=3.1.4=py_0
   - ca-certificates=2020.1.1=0
@@ -79,6 +80,7 @@ dependencies:
   - setuptools=46.4.0=py37_0
   - sip=4.19.8=py37h0a44026_0
   - six=1.14.0=py37_0
+  - soupsieve=2.0.1=py_0
   - sqlite=3.31.1=h5c1f38d_1
   - terminado=0.8.3=py37_0
   - testpath=0.4.4=py_0
