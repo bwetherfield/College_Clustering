@@ -1,0 +1,101 @@
+University,Large,Medium,Public,Liberal Arts,Small,Rank,Private
+Massachusetts Institute of Technology,,,False,,,1,True
+Stanford University,,,False,,,2,True
+Yale University,,,False,,,3,True
+Harvard University,,,False,,,4,True
+Princeton University,,,False,,,5,True
+Duke University,,,False,,,6,True
+Brown University,,,False,,,7,True
+Columbia University,,,False,,,8,True
+University of Pennsylvania,,,False,,,9,True
+Rice University,,,False,,,10,True
+Northwestern University,,,False,,,11,True
+Vanderbilt University,,,False,,,12,True
+Pomona College,,,False,,,13,True
+Washington University in St. Louis,,,False,,,14,True
+Dartmouth College,,,False,,,15,True
+California Institute of Technology,,,False,,,16,True
+University of Notre Dame,,,False,,,17,True
+University of Chicago,,,False,,,18,True
+University of Southern California,,,False,,,19,True
+Cornell University,,,False,,,20,True
+Bowdoin College,,,False,,,21,True
+Amherst College,,,False,,,22,True
+University of Michigan - Ann Arbor,,,True,,,23,False
+Georgetown University,,,False,,,24,True
+Tufts University,,,False,,,25,True
+University of California - Los Angeles,,,True,,,26,False
+Johns Hopkins University,,,False,,,27,True
+Carnegie Mellon University,,,False,,,28,True
+University of Virginia,,,True,,,29,False
+Emory University,,,False,,,30,True
+Haverford College,,,False,,,31,True
+Carleton College,,,False,,,32,True
+Middlebury College,,,False,,,33,True
+Barnard College,,,False,,,34,True
+Williams College,,,False,,,35,True
+Washington & Lee University,,,False,,,36,True
+United States Military Academy at West Point,,,True,,,37,False
+Georgia Institute of Technology,,,True,,,38,False
+Wellesley College,,,False,,,39,True
+Swarthmore College,,,False,,,40,True
+University of California - Berkeley,,,True,,,41,False
+Wake Forest University,,,False,,,42,True
+University of North Carolina at Chapel Hill,,,True,,,43,False
+Northeastern University,,,False,,,44,True
+Davidson College,,,False,,,45,True
+New York University,,,False,,,46,True
+Bates College,,,False,,,47,True
+Boston College,,,False,,,48,True
+Claremont McKenna College,,,False,,,49,True
+Harvey Mudd College,,,False,,,50,True
+University of Texas - Austin,,,True,,,51,False
+Colby College,,,False,,,52,True
+Hamilton College,,,False,,,53,True
+Wesleyan University,,,False,,,54,True
+Lehigh University,,,False,,,55,True
+William & Mary,,,True,,,56,False
+Colgate University,,,False,,,57,True
+Virginia Tech,,,True,,,58,False
+University of Florida,,,True,,,59,False
+Boston University,,,False,,,60,True
+University of Richmond,,,False,,,61,True
+Smith College,,,False,,,62,False
+University of Wisconsin,,,True,,,63,False
+University of Illinois at Urbana-Champaign,,,True,,,64,False
+Vassar College,,,False,,,65,False
+University of Georgia,,,True,,,66,False
+Colorado College,,,False,,,67,False
+The Cooper Union for the Advancement of Science and Art,,,False,,,68,False
+Grinnell College,,,False,,,69,False
+Bucknell University,,,False,,,70,False
+Bryn Mawr College,,,False,,,71,False
+Kenyon College,,,False,,,72,False
+Rensselaer Polytechnic Institute,,,False,,,73,False
+University of Miami,,,False,,,74,False
+University of California - Santa Barbara,,,True,,,75,False
+University of Rochester,,,False,,,76,False
+Southern Methodist University,,,False,,,77,False
+Brigham Young University,,,False,,,78,False
+Case Western Reserve University,,,False,,,79,False
+Macalester College,,,False,,,80,False
+Villanova University,,,False,,,81,False
+Lafayette College,,,False,,,82,False
+Purdue University,,,True,,,83,False
+College of the Holy Cross,,,False,,,84,False
+Tulane University,,,False,,,85,False
+Babson College,,,False,,,86,False
+Colorado School of Mines,,,True,,,87,False
+Santa Clara University,,,False,,,88,False
+University of Minnesota - Twin Cities,,,True,,,89,False
+Mount Holyoke College,,,False,,,90,False
+Worcester Polytechnic Institute,,,False,,,91,False
+University of Washington,,,True,,,92,False
+Penn State,,,True,,,93,False
+The Ohio State University,,,True,,,94,False
+Texas A&M University,,,True,,,95,False
+North Carolina State University,,,True,,,96,False
+Reed College,,,False,,,97,False
+Rose-Hulman Institute of Technology,,,False,,,98,False
+Scripps College,,,False,,,99,False
+Clemson University,,,True,,,100,False

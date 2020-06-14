@@ -1,0 +1,226 @@
+University,Large,Medium,Public,Liberal Arts,Small,Rank,Private
+Massachusetts Institute of Technology,False,True,False,False,False,1.0,True
+Stanford University,False,True,False,False,False,2.0,True
+Yale University,False,True,False,False,False,3.0,True
+Harvard University,False,True,False,False,False,4.0,True
+Princeton University,False,True,False,False,False,5.0,True
+Duke University,False,True,False,False,False,6.0,True
+Brown University,False,True,False,False,False,7.0,True
+Columbia University,False,True,False,False,False,8.0,True
+University of Pennsylvania,False,True,False,False,False,9.0,True
+Rice University,False,True,False,False,False,10.0,True
+Northwestern University,False,True,False,False,False,11.0,True
+Vanderbilt University,False,True,False,False,False,12.0,True
+Pomona College,False,False,False,True,True,13.0,True
+Washington University in St. Louis,False,True,False,False,False,14.0,True
+Dartmouth College,False,True,False,False,False,15.0,True
+California Institute of Technology,False,False,False,False,True,16.0,True
+University of Notre Dame,False,True,False,False,False,17.0,True
+University of Chicago,False,True,False,False,False,18.0,True
+University of Southern California,True,False,False,False,False,19.0,True
+Cornell University,True,False,False,False,False,20.0,True
+Bowdoin College,False,False,False,True,True,21.0,True
+Amherst College,False,False,False,True,True,22.0,True
+University of Michigan - Ann Arbor,True,False,True,False,False,23.0,False
+Georgetown University,False,True,False,False,False,24.0,True
+Tufts University,False,True,False,False,False,25.0,True
+University of California - Los Angeles,True,False,True,False,False,26.0,False
+Johns Hopkins University,False,True,False,False,False,27.0,True
+Carnegie Mellon University,False,True,False,False,False,28.0,True
+University of Virginia,True,False,True,False,False,29.0,False
+Emory University,False,True,False,False,False,30.0,True
+Haverford College,False,False,False,True,True,31.0,True
+Carleton College,False,False,False,True,True,32.0,True
+Middlebury College,False,False,False,True,True,33.0,True
+Barnard College,False,False,False,True,True,34.0,True
+Williams College,False,False,False,True,True,35.0,True
+Washington & Lee University,False,False,False,True,True,36.0,True
+United States Military Academy at West Point,False,True,True,True,False,37.0,False
+Georgia Institute of Technology,False,True,True,False,False,38.0,False
+Wellesley College,False,False,False,True,True,39.0,True
+Swarthmore College,False,False,False,True,True,40.0,True
+University of California - Berkeley,True,False,True,False,False,41.0,False
+Wake Forest University,False,True,False,False,False,42.0,True
+University of North Carolina at Chapel Hill,True,False,True,False,False,43.0,False
+Northeastern University,False,True,False,False,False,44.0,True
+Davidson College,False,False,False,True,True,45.0,True
+New York University,True,False,False,False,False,46.0,True
+Bates College,False,False,False,True,True,47.0,True
+Boston College,False,True,False,False,False,48.0,True
+Claremont McKenna College,False,False,False,True,True,49.0,True
+Harvey Mudd College,False,False,False,True,True,50.0,True
+University of Texas - Austin,True,False,True,False,False,51.0,False
+Colby College,False,False,False,True,True,52.0,True
+Hamilton College,False,False,False,True,True,53.0,True
+Wesleyan University,False,False,False,True,True,54.0,True
+Lehigh University,False,True,False,False,False,55.0,True
+William & Mary,False,True,True,False,False,56.0,False
+Colgate University,False,False,False,True,True,57.0,True
+Virginia Tech,True,False,True,False,False,58.0,False
+University of Florida,True,False,True,False,False,59.0,False
+Boston University,True,False,False,False,False,60.0,True
+University of Richmond,False,True,False,True,False,61.0,True
+Smith College,False,False,False,True,True,62.0,False
+University of Wisconsin,True,False,True,False,False,63.0,False
+University of Illinois at Urbana-Champaign,True,False,True,False,False,64.0,False
+Vassar College,False,False,False,True,True,65.0,False
+University of Georgia,True,False,True,False,False,66.0,False
+Colorado College,False,False,False,True,True,67.0,False
+The Cooper Union for the Advancement of Science and Art,False,False,False,False,True,68.0,False
+Grinnell College,False,False,False,True,True,69.0,False
+Bucknell University,False,True,False,True,False,70.0,False
+Bryn Mawr College,False,False,False,True,True,71.0,False
+Kenyon College,False,False,False,True,True,72.0,False
+Rensselaer Polytechnic Institute,False,True,False,False,False,73.0,False
+University of Miami,False,True,False,False,False,74.0,False
+University of California - Santa Barbara,True,False,True,False,False,75.0,False
+University of Rochester,False,True,False,False,False,76.0,False
+Southern Methodist University,False,True,False,False,False,77.0,False
+Brigham Young University,True,False,False,False,False,78.0,False
+Case Western Reserve University,False,True,False,False,False,79.0,False
+Macalester College,False,False,False,True,True,80.0,False
+Villanova University,False,True,False,False,False,81.0,False
+Lafayette College,False,False,False,True,True,82.0,False
+Purdue University,True,False,True,False,False,83.0,False
+College of the Holy Cross,False,False,False,True,True,84.0,False
+Tulane University,False,True,False,False,False,85.0,False
+Babson College,False,False,False,False,True,86.0,False
+Colorado School of Mines,False,True,True,False,False,87.0,False
+Santa Clara University,False,True,False,False,False,88.0,False
+University of Minnesota - Twin Cities,True,False,True,False,False,89.0,False
+Mount Holyoke College,False,False,False,True,True,90.0,False
+Worcester Polytechnic Institute,False,True,False,False,False,91.0,False
+University of Washington,True,False,True,False,False,92.0,False
+Penn State,True,False,True,False,False,93.0,False
+The Ohio State University,True,False,True,False,False,94.0,False
+Texas A&M University,True,False,True,False,False,95.0,False
+North Carolina State University,True,False,True,False,False,96.0,False
+Reed College,False,False,False,True,True,97.0,False
+Rose-Hulman Institute of Technology,False,False,False,False,True,98.0,False
+Scripps College,False,False,False,True,True,99.0,False
+Clemson University,True,False,True,False,False,100.0,False
+University of Pittsburgh,True,False,,False,False,,
+University of Maryland - College Park,True,False,,False,False,,
+Michigan State University,True,False,,False,False,,
+Florida State University,True,False,,False,False,,
+University of California - Irvine,True,False,,False,False,,
+University of California - Davis,True,False,,False,False,,
+University of California - San Diego,True,False,,False,False,,
+Indiana University - Bloomington,True,False,,False,False,,
+University of Delaware,True,False,,False,False,,
+University of Massachusetts - Amherst,True,False,,False,False,,
+California Polytechnic State University - San Luis Obispo,True,False,,False,False,,
+University of South Florida,True,False,,False,False,,
+Rutgers University - New Brunswick,True,False,,False,False,,
+University of Iowa,True,False,,False,False,,
+Auburn University,True,False,,False,False,,
+Iowa State University,True,False,,False,False,,
+University of Utah,True,False,,False,False,,
+James Madison University,True,False,,False,False,,
+University of Oklahoma,True,False,,False,False,,
+Arizona State University,True,False,,False,False,,
+The University of Alabama,True,False,,False,False,,
+Washington State University,True,False,,False,False,,
+University of Cincinnati,True,False,,False,False,,
+University of South Carolina,True,False,,False,False,,
+University of Connecticut,True,False,,False,False,,
+University of Arizona,True,False,,False,False,,
+Oklahoma State University,True,False,,False,False,,
+University of Colorado - Boulder,True,False,,False,False,,
+University of Arkansas,True,False,,False,False,,
+Miami University,True,False,,False,False,,
+University of Missouri,True,False,,False,False,,
+University of Kansas,True,False,,False,False,,
+Kansas State University,True,False,,False,False,,
+University of Nebraska - Lincoln,True,False,,False,False,,
+University of Central Florida,True,False,,False,False,,
+Mississippi State University,True,False,,False,False,,
+University of Oregon,True,False,,False,False,,
+"University at Buffalo, SUNY",True,False,,False,False,,
+University of Texas at Dallas,True,False,,False,False,,
+Texas Tech University,True,False,,False,False,,
+California State University - Long Beach,True,False,,False,False,,
+University of Houston,True,False,,False,False,,
+Temple University,True,False,,False,False,,
+University of Mississippi,True,False,,False,False,,
+Colorado State University,True,False,,False,False,,
+San Diego State University,True,False,,False,False,,
+Florida International University,True,False,,False,False,,
+University of Tennessee,True,False,,False,False,,
+University of California - Santa Cruz,True,False,,False,False,,
+Oregon State University,True,False,,False,False,,
+Stevens Institute of Technology,True,True,,False,False,,
+St. Olaf College,True,True,,True,False,,
+Brandeis University,True,True,,False,False,,
+George Washington University,True,True,,False,False,,
+University of Tulsa,True,True,,False,False,,
+Texas Christian University,True,True,,False,False,,
+Bentley University,True,True,,False,False,,
+Michigan Technological University,True,True,,False,False,,
+Syracuse University,True,True,,False,False,,
+Pepperdine University,True,True,,False,False,,
+Saint Louis University,True,True,,False,False,,
+University of San Diego,True,True,,False,False,,
+Loyola Marymount University,True,True,,False,False,,
+Baylor University,True,True,,False,False,,
+University of Dayton,True,True,,False,False,,
+University of Portland,True,True,,False,False,,
+American University,True,True,,False,False,,
+Chapman University,True,True,,False,False,,
+University of Denver,True,True,,False,False,,
+Creighton University,True,True,,False,False,,
+Rochester Institute of Technology,True,True,,False,False,,
+The College of New Jersey,True,True,,False,False,,
+University of San Francisco,True,True,,False,False,,
+Gonzaga University,True,True,,False,False,,
+University of St. Thomas - Minnesota,True,True,,False,False,,
+Butler University,True,True,,False,False,,
+Hope College,True,True,,False,False,,
+Missouri University of Science & Technology,True,True,,False,False,,
+CUNY Baruch College,True,True,,False,False,,
+"Binghamton University, SUNY",True,True,,False,False,,
+Fairfield University,True,True,,False,False,,
+Marquette University,True,True,,False,False,,
+Calvin College,True,True,,False,False,,
+University of Vermont,True,True,,False,False,,
+University of Scranton,True,True,,False,False,,
+Skidmore College,True,False,,True,True,,
+Pitzer College,True,False,,True,True,,
+Whitman College,True,False,,True,True,,
+Occidental College,True,False,,True,True,,
+Trinity University - Texas,True,False,,False,True,,
+Gettysburg College,True,False,,True,True,,
+Yeshiva University,True,False,,False,True,,
+Franklin & Marshall College,True,False,,True,True,,
+Union College - New York,True,False,,True,True,,
+Furman University,True,False,,True,True,,
+Wheaton College - Illinois,True,False,,True,True,,
+CUNY Stella & Charles Guttman Community College,True,False,,False,True,,
+Denison University,True,False,,True,True,,
+Sewanee - The University of the South,True,False,,True,True,,
+Rhode Island School of Design,True,False,,False,True,,
+Oberlin College,True,False,,True,True,,
+Lawrence University,True,False,,True,True,,
+Gustavus Adolphus College,True,False,,True,True,,
+Wabash College,True,False,,True,True,,
+Rhodes College,True,False,,False,True,,
+Milwaukee School of Engineering,True,False,,False,True,,
+Drake University,True,False,,False,True,,
+Dickinson College,True,False,,False,True,,
+Ohio Northern University,True,False,,False,True,,
+Baptist College of Health Sciences,True,False,,False,True,,
+St. Lawrence University,True,False,,False,True,,
+Virginia Military Institute,True,False,,False,True,,
+New Mexico Tech,True,False,,False,True,,
+Moody Bible Institute,True,False,,False,True,,
+Luther College,True,False,,False,True,,
+SUNY College of Environmental Science & Forestry,True,False,,False,True,,
+DePauw University,True,False,,False,True,,
+LeTourneau University,True,False,,False,True,,
+College of Wooster,True,False,,False,True,,
+Illinois Institute of Technology,True,False,,False,True,,
+Illinois Wesleyan University,True,False,,False,True,,
+Augustana University,True,False,,False,True,,
+Muhlenberg College,True,False,,False,True,,
+Point Loma Nazarene University,True,False,,False,True,,
+Wofford College,True,False,,False,True,,
