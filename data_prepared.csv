@@ -1,0 +1,79 @@
+,University,Rank,Small,Medium,Large,Public,Private,Liberal Arts,Total Cost of Attendance,Full-Time Undergrads,Full-Time Nonresident Aliens ,Percentage of Nonresident Aliens to All Undergrads,Policy: Need-based,Policy: Merit,Policy: No Aid,Percentage of Nonresident Aliens Receiving Aid,Average Aid Award,Average Cost with Aid,Expected Cost,Latitude,Longitude
+0,Massachusetts Institute of Technology,1.0,False,True,False,False,True,False,73160.0,73160.0,457.0,10.0,True,True,False,78.0,56675.0,16485.0,28887.0,42.3583961,-71.09567787663931
+1,Stanford University,2.0,False,True,False,False,True,False,75470.0,75470.0,739.0,11.0,True,True,False,27.0,60250.0,15220.0,59083.0,37.4316091,-122.16936535498309
+2,Yale University,3.0,False,True,False,False,True,False,76490.0,76490.0,646.0,11.0,True,True,False,57.0,62089.0,14401.0,41120.0,41.3124042,-72.92566039270301
+3,Harvard University,4.0,False,True,False,False,True,False,73800.0,73800.0,814.0,12.0,True,True,False,73.0,61703.0,12097.0,29001.0,42.37626005,-71.12612232686303
+4,Princeton University,5.0,False,True,False,False,True,False,70850.0,70850.0,653.0,12.0,True,True,False,70.0,54271.0,16579.0,32702.0,40.342835074999996,-74.65800016680154
+5,Duke University,6.0,False,True,False,False,True,False,77569.0,77569.0,658.0,10.0,True,True,False,32.0,66754.0,10815.0,55960.0,35.999603949999994,-78.93664631153634
+6,Brown University,7.0,False,True,False,False,True,False,77490.0,77490.0,751.0,11.0,True,True,False,17.0,62935.0,14555.0,66763.0,41.826853625,-71.40228830348407
+7,Columbia University,8.0,False,True,False,False,True,False,,,,,False,True,False,,,,,40.814856000000006,-73.96101623650988
+8,University of Pennsylvania,9.0,False,True,False,False,True,False,78186.0,78186.0,1320.0,13.0,True,True,False,26.0,51724.0,26462.0,64589.0,39.9492849,-75.19291418251626
+9,Rice University,10.0,False,True,False,False,True,False,67402.0,67402.0,463.0,12.0,True,True,False,26.0,43656.0,23746.0,55899.0,29.716791450000002,-95.40478113393792
+10,Northwestern University,11.0,False,True,False,False,True,False,78599.0,78599.0,780.0,9.0,True,True,False,23.0,58827.0,19772.0,64948.0,42.0551164,-87.67581113482166
+11,Vanderbilt University,12.0,False,True,False,False,True,False,71110.0,71110.0,599.0,9.0,True,True,False,27.0,53134.0,17976.0,56740.0,37.708753525,-85.54703394547647
+12,Pomona College,13.0,True,False,False,False,True,True,75080.0,75080.0,189.0,11.0,True,True,False,44.0,59477.0,15603.0,48960.0,34.096326774999994,-117.71319861205757
+13,Washington University in St. Louis,14.0,False,True,False,False,True,False,76910.0,76910.0,551.0,8.0,True,True,False,12.0,47748.0,29162.0,71191.0,38.6502018,-90.3114481
+14,Dartmouth College,15.0,False,True,False,False,True,False,77326.0,77326.0,403.0,9.0,True,True,False,63.0,64516.0,12810.0,36663.0,43.701971925,-72.28965318682857
+15,California Institute of Technology,16.0,True,False,False,False,True,False,74763.0,74763.0,83.0,9.0,True,True,False,35.0,53060.0,21703.0,56224.0,34.13710185,-118.1252748661162
+16,University of Notre Dame,17.0,False,True,False,False,True,False,74193.0,74193.0,541.0,6.0,True,True,False,43.0,51006.0,23187.0,52414.0,41.704567749999995,-86.23822026017265
+17,University of Chicago,18.0,False,True,False,False,True,False,,,,,False,True,False,,,,,41.7892454,-87.59771803592608
+18,University of Southern California,19.0,False,False,True,False,True,False,73270.0,73270.0,2491.0,13.0,False,True,False,21.0,18069.0,55201.0,69433.0,34.02024625,-118.28660743457544
+19,Cornell University,20.0,False,False,True,False,True,False,75243.0,75243.0,1589.0,11.0,True,True,False,11.0,62170.0,13073.0,68240.0,42.45063639999999,-76.48227781130683
+20,Bowdoin College,21.0,True,False,False,False,True,True,70710.0,70710.0,107.0,6.0,True,True,False,49.0,56919.0,13791.0,43048.0,43.90825,-69.9616745820036
+21,Amherst College,22.0,True,False,False,False,True,True,73966.0,73966.0,151.0,8.0,True,True,False,89.0,66093.0,7873.0,14876.0,42.371195325,-72.51510404562048
+22,University of Michigan - Ann Arbor,23.0,False,False,True,True,False,False,30298.0,30298.0,2107.0,7.0,False,True,True,0.0,0.0,30298.0,30298.0,42.2788567,-83.7342551
+23,Georgetown University,24.0,False,True,False,False,True,False,77768.0,77768.0,991.0,14.0,True,True,False,3.0,69406.0,8362.0,75737.0,38.90893925,-77.07457962060826
+24,Tufts University,25.0,False,True,False,False,True,False,74000.0,74000.0,588.0,11.0,True,True,False,29.0,60243.0,13757.0,56788.0,42.40629165,-71.11819855889479
+25,University of California - Los Angeles,26.0,False,False,True,True,False,False,34831.0,34831.0,3645.0,12.0,False,True,False,3.0,26372.0,8459.0,34013.0,34.0708781,-118.44684973165106
+26,Johns Hopkins University,27.0,False,True,False,False,True,False,,,,,False,True,False,,,,,39.1033748,-77.19807592179512
+27,Carnegie Mellon University,28.0,False,True,False,False,True,False,74116.0,74116.0,1507.0,23.0,False,True,True,0.0,0.0,74116.0,74116.0,40.4441619,-79.942728259225
+28,University of Virginia,29.0,False,False,True,True,False,False,33493.0,33493.0,698.0,4.0,False,True,False,0.0,0.0,33493.0,33493.0,38.03971165,-78.50424855091785
+29,Emory University,30.0,False,True,False,False,True,False,70000.0,70000.0,1118.0,16.0,True,True,False,8.0,45671.0,24329.0,66323.0,33.795867650000005,-84.3201858947244
+30,Haverford College,31.0,True,False,False,False,True,True,76130.0,76130.0,144.0,11.0,True,True,False,28.0,64598.0,11532.0,58186.0,40.0071506,-75.30694232576307
+31,Carleton College,32.0,True,False,False,False,True,True,74275.0,74275.0,225.0,11.0,True,True,False,29.0,46915.0,27360.0,60513.0,44.47183535,-93.14145805901515
+32,Middlebury College,33.0,True,False,False,False,True,True,72000.0,72000.0,274.0,11.0,True,True,False,52.0,61036.0,10964.0,40368.0,44.00366955,-73.1773487
+33,Barnard College,34.0,True,False,False,False,True,True,78044.0,78044.0,249.0,9.0,True,True,False,12.0,62097.0,15947.0,70562.0,40.80970505,-73.96338868739625
+34,Williams College,35.0,True,False,False,False,True,True,75520.0,75520.0,158.0,8.0,True,True,False,59.0,66066.0,9454.0,36215.0,42.709741525,-73.23983628229884
+35,Washington & Lee University,36.0,True,False,False,False,True,True,70500.0,70500.0,69.0,4.0,True,True,False,99.0,60681.0,9819.0,10698.0,37.7929993,-79.44773490479687
+36,Georgia Institute of Technology,38.0,False,True,False,True,False,False,31080.0,31080.0,1375.0,10.0,False,True,True,0.0,0.0,31080.0,31080.0,33.776033,-84.39884086001581
+37,Wellesley College,39.0,True,False,False,False,True,True,74948.0,74948.0,324.0,14.0,True,True,False,27.0,64514.0,10434.0,57227.0,42.291776049999996,-71.3032751636105
+38,Swarthmore College,40.0,True,False,False,False,True,True,73524.0,73524.0,210.0,13.0,True,True,False,34.0,63252.0,10272.0,51838.0,39.902672700000004,-75.35263152787849
+39,University of California - Berkeley,41.0,False,False,True,True,False,False,36410.0,36410.0,4000.0,14.0,False,True,True,0.0,0.0,36410.0,36410.0,37.87094645,-122.26639872292523
+40,Wake Forest University,42.0,False,True,False,False,True,False,68900.0,68900.0,521.0,10.0,False,True,False,15.0,14280.0,54620.0,66762.0,36.134113975000005,-80.27683649563843
+41,University of North Carolina at Chapel Hill,43.0,False,False,True,True,False,False,24294.0,24294.0,656.0,4.0,False,True,True,0.0,0.0,24294.0,24294.0,35.907407725,-79.04780578262555
+42,Northeastern University,44.0,False,True,False,False,True,False,73236.0,73236.0,3214.0,18.0,False,True,False,14.0,18031.0,55205.0,70622.0,42.33835965,-71.0886398373512
+43,Davidson College,45.0,True,False,False,False,True,True,70627.0,70627.0,121.0,7.0,True,True,False,55.0,48450.0,22177.0,44200.0,35.5032193,-80.83393027613258
+44,New York University,46.0,False,False,True,False,True,False,76612.0,76612.0,5394.0,21.0,True,True,False,14.0,20376.0,56236.0,73669.0,40.72925325,-73.99625393609625
+45,Bates College,47.0,True,False,False,False,True,True,73538.0,73538.0,142.0,8.0,True,True,False,56.0,59258.0,14280.0,40153.0,44.1060827,-70.20232303437507
+46,Boston College,48.0,False,True,False,False,True,False,,,,,False,True,False,,,,,42.33780915,-71.1675918201153
+47,Claremont McKenna College,49.0,True,False,False,False,True,True,73000.0,73000.0,212.0,16.0,True,True,False,15.0,51364.0,21636.0,65489.0,34.101518125,-117.70533119160152
+48,Harvey Mudd College,50.0,True,False,False,False,True,True,77753.0,77753.0,83.0,10.0,True,True,False,31.0,31465.0,46288.0,67896.0,34.10599325,-117.70870925266648
+49,University of Texas - Austin,51.0,False,False,True,True,False,False,26506.0,26506.0,2160.0,6.0,True,True,False,25.0,8028.0,18478.0,24477.0,30.2843045,-97.73308329040108
+50,Colby College,52.0,True,False,False,False,True,True,74100.0,74100.0,198.0,10.0,True,True,False,52.0,48097.0,26003.0,49323.0,44.56095155,-69.6687025
+51,Hamilton College,53.0,True,False,False,False,True,True,70490.0,70490.0,126.0,7.0,True,True,False,42.0,61051.0,9439.0,44810.0,43.050147100000004,-75.40920624756897
+52,Wesleyan University,54.0,True,False,False,False,True,True,73000.0,73000.0,364.0,12.0,True,True,False,24.0,64017.0,8983.0,57347.0,41.5559033,-72.65598837715102
+53,Lehigh University,55.0,False,True,False,False,True,False,71465.0,71465.0,459.0,9.0,True,True,False,22.0,48706.0,22759.0,60748.0,40.6068028,-75.3782488
+54,College of William and Mary,56.0,False,True,False,True,False,False,38889.0,38889.0,381.0,6.0,False,True,True,0.0,0.0,38889.0,38889.0,37.2698853,-76.71525592671914
+55,Colgate University,57.0,True,False,False,False,True,True,75000.0,75000.0,276.0,9.0,True,True,False,56.0,61103.0,13897.0,40685.0,42.815403700000005,-75.53772882479016
+56,Virginia Tech,58.0,False,False,True,True,False,False,27213.0,27213.0,1824.0,7.0,False,True,True,0.0,0.0,27213.0,27213.0,37.22824465,-80.41934284999999
+57,University of Florida,59.0,False,False,True,True,False,False,0.0,0.0,742.0,2.0,False,True,True,0.0,0.0,0.0,0.0,29.635923,-82.37021349645454
+58,Boston University,60.0,False,False,True,False,True,False,71618.0,71618.0,3687.0,22.0,False,True,False,6.0,34717.0,36901.0,69490.0,42.351298625,-71.1113176147688
+59,University of Richmond,61.0,False,True,False,False,True,True,69750.0,69750.0,295.0,9.0,True,True,False,56.0,44731.0,25019.0,44579.0,37.57586225,-77.54129937158409
+60,Smith College,62.0,True,False,False,False,False,True,75229.0,75229.0,344.0,14.0,True,True,False,45.0,59322.0,15907.0,48327.0,42.317918975,-72.6389881737058
+61,University of Wisconsin - Madison,63.0,False,False,True,True,False,False,,,3082.0,11.0,False,True,True,0.0,0.0,,,43.0776853,-89.4176223
+62,University of Illinois at Urbana-Champaign,64.0,False,False,True,True,False,False,31760.0,31760.0,4854.0,15.0,False,True,False,1.0,7163.0,24597.0,31688.0,40.101976,-88.23131507323531
+63,Vassar College,65.0,True,False,False,False,False,True,73000.0,73000.0,208.0,8.0,True,True,False,40.0,63075.0,9925.0,47527.0,41.686521925,-73.89462392510217
+64,University of Georgia,66.0,False,False,True,True,False,False,27450.0,27450.0,432.0,2.0,False,True,True,0.0,0.0,27450.0,27450.0,33.9425116,-83.37339522494148
+65,Colorado College,67.0,True,False,False,False,False,True,73600.0,73600.0,184.0,9.0,True,True,False,59.0,44485.0,29115.0,47247.0,38.84840575,-104.8251643592215
+66,Cooper Union,68.0,True,False,False,False,False,False,,,,,False,True,False,,,,,40.7295282,-73.9905606
+67,Grinnell College,69.0,True,False,False,False,False,True,67646.0,67646.0,323.0,19.0,True,True,False,62.0,38487.0,29159.0,43696.0,41.75111985,-92.71984863278584
+68,Bucknell University,70.0,False,True,False,False,False,True,75400.0,75400.0,239.0,7.0,True,True,False,54.0,58757.0,16643.0,43932.0,35.512295949999995,-87.3742101
+69,Bryn Mawr College,71.0,True,False,False,False,False,True,73990.0,73990.0,291.0,22.0,True,True,False,40.0,55060.0,18930.0,52042.0,40.02813555,-75.31592058518157
+70,Kenyon College,72.0,True,False,False,False,False,True,71150.0,71150.0,123.0,7.0,True,True,False,63.0,56791.0,14359.0,35136.0,40.37264735,-82.39428986783508
+71,Rensselaer Polytechnic Institute,73.0,False,True,False,False,False,False,67006.0,67006.0,980.0,15.0,False,True,True,0.0,0.0,67006.0,67006.0,42.73280325,-73.67296098476673
+72,University of Miami,74.0,False,True,False,False,False,False,70906.0,70906.0,1631.0,16.0,True,True,False,19.0,28679.0,42227.0,65596.0,25.713398499999997,-80.27869157646253
+73,University of California - Santa Barbara,75.0,False,False,True,True,False,False,36685.0,36685.0,2743.0,12.0,False,True,False,3.0,22215.0,14470.0,36045.0,34.4132691,-119.84745113175593
+74,University of Rochester,76.0,False,True,False,False,False,False,,,,,False,True,False,,,,,43.1302114,-77.62642594716263
+75,Southern Methodist University,77.0,False,True,False,False,False,False,76710.0,76710.0,521.0,8.0,False,True,False,47.0,32551.0,44159.0,61465.0,32.841801149999995,-96.78152810147064
+76,Brigham Young University,78.0,False,False,True,False,False,False,19236.0,19236.0,1026.0,4.0,True,True,False,52.0,5704.0,13532.0,16289.0,40.2557618,-111.65334882639887
+77,Case Western Reserve University,79.0,False,True,False,False,False,False,70118.0,70118.0,693.0,14.0,True,True,False,18.0,31870.0,38248.0,64277.0,41.50138695,-81.60070216159022
