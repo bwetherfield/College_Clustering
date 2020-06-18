@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36552e1914fb458b85d3bbbc5f44549e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_36552e1914fb458b85d3bbbc5f44549e" ></div>
+        
+</body>
+<script>    
+    
+            var map_36552e1914fb458b85d3bbbc5f44549e = L.map(
+                "map_36552e1914fb458b85d3bbbc5f44549e",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6591acbe88da48c7b4702ee5f039e7cf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+            var circle_marker_55b31d21cac34a24be4e9ec286f05260 = L.circleMarker(
+                [42.371195325, -72.51510404562049],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_dbdcd46e26c24a76b96049afdb92eb4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_276ebaa1d68342518d984a2bc5d17782 = $(`<div id="html_276ebaa1d68342518d984a2bc5d17782" style="width: 100.0%; height: 100.0%;">Amherst College Cluster 2</div>`)[0];
+            popup_dbdcd46e26c24a76b96049afdb92eb4f.setContent(html_276ebaa1d68342518d984a2bc5d17782);
+        
+
+        circle_marker_55b31d21cac34a24be4e9ec286f05260.bindPopup(popup_dbdcd46e26c24a76b96049afdb92eb4f)
+        ;
+
+        
+    
+    
+            var circle_marker_6e149ddac7db40aeb95591458b249f89 = L.circleMarker(
+                [40.80970505, -73.96338868739625],
+                {"bubblingMouseEvents": true, "color": "#b2f396", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2f396", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_4cd421333f8d4fe0888758b8fce1c048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e75a9b736d47ff8ecf5e3e5a3e75d3 = $(`<div id="html_30e75a9b736d47ff8ecf5e3e5a3e75d3" style="width: 100.0%; height: 100.0%;">Barnard College Cluster 4</div>`)[0];
+            popup_4cd421333f8d4fe0888758b8fce1c048.setContent(html_30e75a9b736d47ff8ecf5e3e5a3e75d3);
+        
+
+        circle_marker_6e149ddac7db40aeb95591458b249f89.bindPopup(popup_4cd421333f8d4fe0888758b8fce1c048)
+        ;
+
+        
+    
+    
+            var circle_marker_033f9d615918438b90ee137063a4bd3c = L.circleMarker(
+                [44.1060827, -70.20232303437507],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_bc4dc5570a40494c9c8decaabb1d1a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8ddd12bf1ed48acb2d136088c71e9b5 = $(`<div id="html_f8ddd12bf1ed48acb2d136088c71e9b5" style="width: 100.0%; height: 100.0%;">Bates College Cluster 2</div>`)[0];
+            popup_bc4dc5570a40494c9c8decaabb1d1a01.setContent(html_f8ddd12bf1ed48acb2d136088c71e9b5);
+        
+
+        circle_marker_033f9d615918438b90ee137063a4bd3c.bindPopup(popup_bc4dc5570a40494c9c8decaabb1d1a01)
+        ;
+
+        
+    
+    
+            var circle_marker_d19a17c2998840d0ba23f483f733ca75 = L.circleMarker(
+                [42.33780915, -71.1675918201153],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_f3c11bb311f24ca784eb710fed73848f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6c83f2bf4184f12ab14d5d19fb1ccd4 = $(`<div id="html_e6c83f2bf4184f12ab14d5d19fb1ccd4" style="width: 100.0%; height: 100.0%;">Boston College Cluster 2</div>`)[0];
+            popup_f3c11bb311f24ca784eb710fed73848f.setContent(html_e6c83f2bf4184f12ab14d5d19fb1ccd4);
+        
+
+        circle_marker_d19a17c2998840d0ba23f483f733ca75.bindPopup(popup_f3c11bb311f24ca784eb710fed73848f)
+        ;
+
+        
+    
+    
+            var circle_marker_7c05e4c410fb4819b0a43804ca8347d7 = L.circleMarker(
+                [42.351298625, -71.1113176147688],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_670308799f8f4ec18b4846c1f20e8e3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dece8a1b7607483dbb10a54bac6c5206 = $(`<div id="html_dece8a1b7607483dbb10a54bac6c5206" style="width: 100.0%; height: 100.0%;">Boston University Cluster 5</div>`)[0];
+            popup_670308799f8f4ec18b4846c1f20e8e3b.setContent(html_dece8a1b7607483dbb10a54bac6c5206);
+        
+
+        circle_marker_7c05e4c410fb4819b0a43804ca8347d7.bindPopup(popup_670308799f8f4ec18b4846c1f20e8e3b)
+        ;
+
+        
+    
+    
+            var circle_marker_c1690efe2c0145d7994e3a09445d9836 = L.circleMarker(
+                [43.90825, -69.9616745820036],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_675c6ca53ac742eab20835f542e1a3c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a07c24048fcd4e80913d62cc1f50c3f4 = $(`<div id="html_a07c24048fcd4e80913d62cc1f50c3f4" style="width: 100.0%; height: 100.0%;">Bowdoin College Cluster 2</div>`)[0];
+            popup_675c6ca53ac742eab20835f542e1a3c1.setContent(html_a07c24048fcd4e80913d62cc1f50c3f4);
+        
+
+        circle_marker_c1690efe2c0145d7994e3a09445d9836.bindPopup(popup_675c6ca53ac742eab20835f542e1a3c1)
+        ;
+
+        
+    
+    
+            var circle_marker_e55d948bc76d43bca5fc812c52bdd080 = L.circleMarker(
+                [40.255761799999995, -111.65334882639887],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_17a115bd6b4d449d827971c15da8a9ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0149d1d1a984fcc93552cb798aeca74 = $(`<div id="html_b0149d1d1a984fcc93552cb798aeca74" style="width: 100.0%; height: 100.0%;">Brigham Young University Cluster 1</div>`)[0];
+            popup_17a115bd6b4d449d827971c15da8a9ff.setContent(html_b0149d1d1a984fcc93552cb798aeca74);
+        
+
+        circle_marker_e55d948bc76d43bca5fc812c52bdd080.bindPopup(popup_17a115bd6b4d449d827971c15da8a9ff)
+        ;
+
+        
+    
+    
+            var circle_marker_5f0e9e735ab4417aa12aac5c551a2b3e = L.circleMarker(
+                [41.826853625, -71.40228830348406],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_8ca2156f495847be9bd9e5d1114b3b89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa3ffc9537404a0e98027f327e7d43dc = $(`<div id="html_fa3ffc9537404a0e98027f327e7d43dc" style="width: 100.0%; height: 100.0%;">Brown University Cluster 5</div>`)[0];
+            popup_8ca2156f495847be9bd9e5d1114b3b89.setContent(html_fa3ffc9537404a0e98027f327e7d43dc);
+        
+
+        circle_marker_5f0e9e735ab4417aa12aac5c551a2b3e.bindPopup(popup_8ca2156f495847be9bd9e5d1114b3b89)
+        ;
+
+        
+    
+    
+            var circle_marker_905e50b8588b488fb5abc7f4259ed782 = L.circleMarker(
+                [40.02813555, -75.31592058518156],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_e4d9235c0fd34399ae588e6d13a1e98b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abb76ca9b01a4e86b21815eb077a69a0 = $(`<div id="html_abb76ca9b01a4e86b21815eb077a69a0" style="width: 100.0%; height: 100.0%;">Bryn Mawr College Cluster 2</div>`)[0];
+            popup_e4d9235c0fd34399ae588e6d13a1e98b.setContent(html_abb76ca9b01a4e86b21815eb077a69a0);
+        
+
+        circle_marker_905e50b8588b488fb5abc7f4259ed782.bindPopup(popup_e4d9235c0fd34399ae588e6d13a1e98b)
+        ;
+
+        
+    
+    
+            var circle_marker_5d5f2e11b35147389f237a491364a08d = L.circleMarker(
+                [34.13710185, -118.1252748661162],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_6c107c50aa72421c8e8acd5755ca5f4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5db2a692342f4d8bbeae111b99fc1523 = $(`<div id="html_5db2a692342f4d8bbeae111b99fc1523" style="width: 100.0%; height: 100.0%;">California Institute of Technology Cluster 1</div>`)[0];
+            popup_6c107c50aa72421c8e8acd5755ca5f4c.setContent(html_5db2a692342f4d8bbeae111b99fc1523);
+        
+
+        circle_marker_5d5f2e11b35147389f237a491364a08d.bindPopup(popup_6c107c50aa72421c8e8acd5755ca5f4c)
+        ;
+
+        
+    
+    
+            var circle_marker_1f228bfe46344304a3efa5687327cb63 = L.circleMarker(
+                [40.4441619, -79.94272825922499],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_d71cb04bff90457d8df296aec3fda26f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77e0a4f601c54672a608b1ada5c4c48f = $(`<div id="html_77e0a4f601c54672a608b1ada5c4c48f" style="width: 100.0%; height: 100.0%;">Carnegie Mellon University Cluster 1</div>`)[0];
+            popup_d71cb04bff90457d8df296aec3fda26f.setContent(html_77e0a4f601c54672a608b1ada5c4c48f);
+        
+
+        circle_marker_1f228bfe46344304a3efa5687327cb63.bindPopup(popup_d71cb04bff90457d8df296aec3fda26f)
+        ;
+
+        
+    
+    
+            var circle_marker_bca41277c7bd4582a96b7594aab7a112 = L.circleMarker(
+                [41.50138695, -81.60070216159022],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_9e2da24fffc0460d8db206d03a79b01a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73414db924514f6abd6e80f72c911c18 = $(`<div id="html_73414db924514f6abd6e80f72c911c18" style="width: 100.0%; height: 100.0%;">Case Western Reserve University Cluster 2</div>`)[0];
+            popup_9e2da24fffc0460d8db206d03a79b01a.setContent(html_73414db924514f6abd6e80f72c911c18);
+        
+
+        circle_marker_bca41277c7bd4582a96b7594aab7a112.bindPopup(popup_9e2da24fffc0460d8db206d03a79b01a)
+        ;
+
+        
+    
+    
+            var circle_marker_14e46b5d8c13466ca2af21fbd15a2f2d = L.circleMarker(
+                [34.101518125, -117.70533119160153],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_0b2d2faabe494537952f67aee3c15d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d357d69bd64484e81ce35a5cac06071 = $(`<div id="html_6d357d69bd64484e81ce35a5cac06071" style="width: 100.0%; height: 100.0%;">Claremont McKenna College Cluster 1</div>`)[0];
+            popup_0b2d2faabe494537952f67aee3c15d7a.setContent(html_6d357d69bd64484e81ce35a5cac06071);
+        
+
+        circle_marker_14e46b5d8c13466ca2af21fbd15a2f2d.bindPopup(popup_0b2d2faabe494537952f67aee3c15d7a)
+        ;
+
+        
+    
+    
+            var circle_marker_12c22ff0f87e4d3f8a5c79bb8b00da15 = L.circleMarker(
+                [42.81540370000001, -75.53772882479015],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_ba5138116c9547219f3f48040dafb224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb8137579dbc4c73841d9617ebe57231 = $(`<div id="html_cb8137579dbc4c73841d9617ebe57231" style="width: 100.0%; height: 100.0%;">Colgate University Cluster 2</div>`)[0];
+            popup_ba5138116c9547219f3f48040dafb224.setContent(html_cb8137579dbc4c73841d9617ebe57231);
+        
+
+        circle_marker_12c22ff0f87e4d3f8a5c79bb8b00da15.bindPopup(popup_ba5138116c9547219f3f48040dafb224)
+        ;
+
+        
+    
+    
+            var circle_marker_f2597631c024495fa65b9499c26604a6 = L.circleMarker(
+                [37.26988529999999, -76.71525592671914],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_a35c6b9a55ec4837b5110dfa3f9e3a98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d781c82fe82544339786f9340fd1a996 = $(`<div id="html_d781c82fe82544339786f9340fd1a996" style="width: 100.0%; height: 100.0%;">College of William and Mary Cluster 1</div>`)[0];
+            popup_a35c6b9a55ec4837b5110dfa3f9e3a98.setContent(html_d781c82fe82544339786f9340fd1a996);
+        
+
+        circle_marker_f2597631c024495fa65b9499c26604a6.bindPopup(popup_a35c6b9a55ec4837b5110dfa3f9e3a98)
+        ;
+
+        
+    
+    
+            var circle_marker_8bc209ad3a01424e85bb8cc99ab16ba2 = L.circleMarker(
+                [38.84840575, -104.8251643592215],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_9ae4328a0c9745ee9aba1c0b0f0618af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88338bcfe2b0465c934766c1d3db760c = $(`<div id="html_88338bcfe2b0465c934766c1d3db760c" style="width: 100.0%; height: 100.0%;">Colorado College Cluster 2</div>`)[0];
+            popup_9ae4328a0c9745ee9aba1c0b0f0618af.setContent(html_88338bcfe2b0465c934766c1d3db760c);
+        
+
+        circle_marker_8bc209ad3a01424e85bb8cc99ab16ba2.bindPopup(popup_9ae4328a0c9745ee9aba1c0b0f0618af)
+        ;
+
+        
+    
+    
+            var circle_marker_59ddc084450241a39ded8e89d186f69b = L.circleMarker(
+                [40.814856000000006, -73.96101623650988],
+                {"bubblingMouseEvents": true, "color": "#b2f396", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2f396", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_bed06e26bcb54d2a94df1d863dffdb49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd3cf357c00478f8746b6242937c732 = $(`<div id="html_cfd3cf357c00478f8746b6242937c732" style="width: 100.0%; height: 100.0%;">Columbia University Cluster 4</div>`)[0];
+            popup_bed06e26bcb54d2a94df1d863dffdb49.setContent(html_cfd3cf357c00478f8746b6242937c732);
+        
+
+        circle_marker_59ddc084450241a39ded8e89d186f69b.bindPopup(popup_bed06e26bcb54d2a94df1d863dffdb49)
+        ;
+
+        
+    
+    
+            var circle_marker_fb62dcf0b31f45319afe6405e0260bb4 = L.circleMarker(
+                [40.7295282, -73.9905606],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_70b9fbf19bd54e28828655cc46cd32b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e29e88e40274889b58c7f089ede02d4 = $(`<div id="html_9e29e88e40274889b58c7f089ede02d4" style="width: 100.0%; height: 100.0%;">Cooper Union Cluster 0</div>`)[0];
+            popup_70b9fbf19bd54e28828655cc46cd32b9.setContent(html_9e29e88e40274889b58c7f089ede02d4);
+        
+
+        circle_marker_fb62dcf0b31f45319afe6405e0260bb4.bindPopup(popup_70b9fbf19bd54e28828655cc46cd32b9)
+        ;
+
+        
+    
+    
+            var circle_marker_f798fb0df3d043878b3540c28b117924 = L.circleMarker(
+                [42.45063639999999, -76.48227781130683],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_40d127a739cf46b0b2faa7184554c7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d88fe5e8ae174693875c2e495be33b89 = $(`<div id="html_d88fe5e8ae174693875c2e495be33b89" style="width: 100.0%; height: 100.0%;">Cornell University Cluster 1</div>`)[0];
+            popup_40d127a739cf46b0b2faa7184554c7e7.setContent(html_d88fe5e8ae174693875c2e495be33b89);
+        
+
+        circle_marker_f798fb0df3d043878b3540c28b117924.bindPopup(popup_40d127a739cf46b0b2faa7184554c7e7)
+        ;
+
+        
+    
+    
+            var circle_marker_e169dd902a11464a9d84ef6c873ce129 = L.circleMarker(
+                [43.701971925, -72.28965318682856],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_9efda49edfb14e7cae1b33f02bc8f8ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c45a37579954139b34fa6025470a8e8 = $(`<div id="html_4c45a37579954139b34fa6025470a8e8" style="width: 100.0%; height: 100.0%;">Dartmouth College Cluster 1</div>`)[0];
+            popup_9efda49edfb14e7cae1b33f02bc8f8ce.setContent(html_4c45a37579954139b34fa6025470a8e8);
+        
+
+        circle_marker_e169dd902a11464a9d84ef6c873ce129.bindPopup(popup_9efda49edfb14e7cae1b33f02bc8f8ce)
+        ;
+
+        
+    
+    
+            var circle_marker_d44313d9cdf74673acc2ab71a380605b = L.circleMarker(
+                [35.999603949999994, -78.93664631153634],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_bde550d3883a4cbdb09986c3c79695ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8a571f9bc3f49a6b382109da7b2ae00 = $(`<div id="html_d8a571f9bc3f49a6b382109da7b2ae00" style="width: 100.0%; height: 100.0%;">Duke University Cluster 2</div>`)[0];
+            popup_bde550d3883a4cbdb09986c3c79695ee.setContent(html_d8a571f9bc3f49a6b382109da7b2ae00);
+        
+
+        circle_marker_d44313d9cdf74673acc2ab71a380605b.bindPopup(popup_bde550d3883a4cbdb09986c3c79695ee)
+        ;
+
+        
+    
+    
+            var circle_marker_88d0837b01804f35a6e2b4a6ed29037a = L.circleMarker(
+                [33.795867650000005, -84.3201858947244],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_e8c7009e508f4725b96e24dbe3c4e625 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b22073ee27d44b69c1166243a621f31 = $(`<div id="html_5b22073ee27d44b69c1166243a621f31" style="width: 100.0%; height: 100.0%;">Emory University Cluster 2</div>`)[0];
+            popup_e8c7009e508f4725b96e24dbe3c4e625.setContent(html_5b22073ee27d44b69c1166243a621f31);
+        
+
+        circle_marker_88d0837b01804f35a6e2b4a6ed29037a.bindPopup(popup_e8c7009e508f4725b96e24dbe3c4e625)
+        ;
+
+        
+    
+    
+            var circle_marker_325d0d39332d4a1b8dd8bfd2a5250e1e = L.circleMarker(
+                [38.90893925, -77.07457962060826],
+                {"bubblingMouseEvents": true, "color": "#b2f396", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2f396", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_e7e5d8b6fbbf42518cdfa6be2e7f243c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_560b027351ab452ab49364911e61531f = $(`<div id="html_560b027351ab452ab49364911e61531f" style="width: 100.0%; height: 100.0%;">Georgetown University Cluster 4</div>`)[0];
+            popup_e7e5d8b6fbbf42518cdfa6be2e7f243c.setContent(html_560b027351ab452ab49364911e61531f);
+        
+
+        circle_marker_325d0d39332d4a1b8dd8bfd2a5250e1e.bindPopup(popup_e7e5d8b6fbbf42518cdfa6be2e7f243c)
+        ;
+
+        
+    
+    
+            var circle_marker_95f57f7f50cd440bb7cb51ca14672675 = L.circleMarker(
+                [33.776033, -84.39884086001581],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_b71ebe1d44a04363a19dbf04c9e541d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75b9d1c1fcef452abe26ed21535c850c = $(`<div id="html_75b9d1c1fcef452abe26ed21535c850c" style="width: 100.0%; height: 100.0%;">Georgia Institute of Technology Cluster 1</div>`)[0];
+            popup_b71ebe1d44a04363a19dbf04c9e541d4.setContent(html_75b9d1c1fcef452abe26ed21535c850c);
+        
+
+        circle_marker_95f57f7f50cd440bb7cb51ca14672675.bindPopup(popup_b71ebe1d44a04363a19dbf04c9e541d4)
+        ;
+
+        
+    
+    
+            var circle_marker_bbc2275f95c4408b870ab753026a9083 = L.circleMarker(
+                [41.75111985, -92.71984863278584],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_c2e72f2c41ad497c98d962e543572cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e73332a0bf9f47279460a73870a583a9 = $(`<div id="html_e73332a0bf9f47279460a73870a583a9" style="width: 100.0%; height: 100.0%;">Grinnell College Cluster 2</div>`)[0];
+            popup_c2e72f2c41ad497c98d962e543572cd2.setContent(html_e73332a0bf9f47279460a73870a583a9);
+        
+
+        circle_marker_bbc2275f95c4408b870ab753026a9083.bindPopup(popup_c2e72f2c41ad497c98d962e543572cd2)
+        ;
+
+        
+    
+    
+            var circle_marker_843299f6b7ec456e8b0ad281a3c66640 = L.circleMarker(
+                [42.37626005, -71.12612232686303],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_de04406917c24fd58d8c4da1e6825b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_514b567ac20a403db90c90a264b7d7d7 = $(`<div id="html_514b567ac20a403db90c90a264b7d7d7" style="width: 100.0%; height: 100.0%;">Harvard University Cluster 3</div>`)[0];
+            popup_de04406917c24fd58d8c4da1e6825b09.setContent(html_514b567ac20a403db90c90a264b7d7d7);
+        
+
+        circle_marker_843299f6b7ec456e8b0ad281a3c66640.bindPopup(popup_de04406917c24fd58d8c4da1e6825b09)
+        ;
+
+        
+    
+    
+            var circle_marker_2adf7bfc507d4f3282ec9407ca9d92eb = L.circleMarker(
+                [34.10599325, -117.7087092526665],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_305f413ef2604cf8aff69c3815e65751 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e1bdd9d07e8475e85972a868fe5b5b2 = $(`<div id="html_5e1bdd9d07e8475e85972a868fe5b5b2" style="width: 100.0%; height: 100.0%;">Harvey Mudd College Cluster 1</div>`)[0];
+            popup_305f413ef2604cf8aff69c3815e65751.setContent(html_5e1bdd9d07e8475e85972a868fe5b5b2);
+        
+
+        circle_marker_2adf7bfc507d4f3282ec9407ca9d92eb.bindPopup(popup_305f413ef2604cf8aff69c3815e65751)
+        ;
+
+        
+    
+    
+            var circle_marker_560d3f13b1064b759b8171e06a32f481 = L.circleMarker(
+                [39.1033748, -77.19807592179512],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_964e76fda71a4a58bc70b546e3de5ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7e69c873b5949ff84bad93bca0be9b0 = $(`<div id="html_a7e69c873b5949ff84bad93bca0be9b0" style="width: 100.0%; height: 100.0%;">Johns Hopkins University Cluster 2</div>`)[0];
+            popup_964e76fda71a4a58bc70b546e3de5ff9.setContent(html_a7e69c873b5949ff84bad93bca0be9b0);
+        
+
+        circle_marker_560d3f13b1064b759b8171e06a32f481.bindPopup(popup_964e76fda71a4a58bc70b546e3de5ff9)
+        ;
+
+        
+    
+    
+            var circle_marker_70020da476d14848b8a206be7a2bd46b = L.circleMarker(
+                [40.37264735, -82.39428986783507],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_1bf731afc03f4ca699303afd729c720f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f67dd400af804a1b90eeefbea1f638d5 = $(`<div id="html_f67dd400af804a1b90eeefbea1f638d5" style="width: 100.0%; height: 100.0%;">Kenyon College Cluster 2</div>`)[0];
+            popup_1bf731afc03f4ca699303afd729c720f.setContent(html_f67dd400af804a1b90eeefbea1f638d5);
+        
+
+        circle_marker_70020da476d14848b8a206be7a2bd46b.bindPopup(popup_1bf731afc03f4ca699303afd729c720f)
+        ;
+
+        
+    
+    
+            var circle_marker_b0cc2e621ab94f94b30e835797807527 = L.circleMarker(
+                [40.6068028, -75.3782488],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_b1de3fa9ca0c443b844da1f5f1dc3300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1604a0b42c13443695272137522a47e2 = $(`<div id="html_1604a0b42c13443695272137522a47e2" style="width: 100.0%; height: 100.0%;">Lehigh University Cluster 5</div>`)[0];
+            popup_b1de3fa9ca0c443b844da1f5f1dc3300.setContent(html_1604a0b42c13443695272137522a47e2);
+        
+
+        circle_marker_b0cc2e621ab94f94b30e835797807527.bindPopup(popup_b1de3fa9ca0c443b844da1f5f1dc3300)
+        ;
+
+        
+    
+    
+            var circle_marker_97c65ce118e64ca58e71f9e57606214e = L.circleMarker(
+                [42.3583961, -71.09567787663931],
+                {"bubblingMouseEvents": true, "color": "#b2f396", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2f396", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_f542f59ca9ca407981ccb0c6a786f99e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d26961ff5e441dcb7ad38f6212c1da4 = $(`<div id="html_3d26961ff5e441dcb7ad38f6212c1da4" style="width: 100.0%; height: 100.0%;">Massachusetts Institute of Technology Cluster 4</div>`)[0];
+            popup_f542f59ca9ca407981ccb0c6a786f99e.setContent(html_3d26961ff5e441dcb7ad38f6212c1da4);
+        
+
+        circle_marker_97c65ce118e64ca58e71f9e57606214e.bindPopup(popup_f542f59ca9ca407981ccb0c6a786f99e)
+        ;
+
+        
+    
+    
+            var circle_marker_00116991341d4d40b22d6683d521d7b0 = L.circleMarker(
+                [44.00366955, -73.17734870000001],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_9e042c1298984fe5b5892ca0e5770633 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_464320ae444c48be8ed7e6660abb1922 = $(`<div id="html_464320ae444c48be8ed7e6660abb1922" style="width: 100.0%; height: 100.0%;">Middlebury College Cluster 2</div>`)[0];
+            popup_9e042c1298984fe5b5892ca0e5770633.setContent(html_464320ae444c48be8ed7e6660abb1922);
+        
+
+        circle_marker_00116991341d4d40b22d6683d521d7b0.bindPopup(popup_9e042c1298984fe5b5892ca0e5770633)
+        ;
+
+        
+    
+    
+            var circle_marker_24dcd7cd865144d2bdeecd73cde9b627 = L.circleMarker(
+                [40.72925325, -73.99625393609625],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_a32952751d1841b28e36c4bc0cda8d51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba78ec668c2e4cf6a36317538a4fc156 = $(`<div id="html_ba78ec668c2e4cf6a36317538a4fc156" style="width: 100.0%; height: 100.0%;">New York University Cluster 0</div>`)[0];
+            popup_a32952751d1841b28e36c4bc0cda8d51.setContent(html_ba78ec668c2e4cf6a36317538a4fc156);
+        
+
+        circle_marker_24dcd7cd865144d2bdeecd73cde9b627.bindPopup(popup_a32952751d1841b28e36c4bc0cda8d51)
+        ;
+
+        
+    
+    
+            var circle_marker_5879edea2a5e43b8b54ca10b692388f5 = L.circleMarker(
+                [42.33835965, -71.08863983735121],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_75424b884af04a67978c74ad386d5a39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90ef95772040497786d57779ddd16a7f = $(`<div id="html_90ef95772040497786d57779ddd16a7f" style="width: 100.0%; height: 100.0%;">Northeastern University Cluster 5</div>`)[0];
+            popup_75424b884af04a67978c74ad386d5a39.setContent(html_90ef95772040497786d57779ddd16a7f);
+        
+
+        circle_marker_5879edea2a5e43b8b54ca10b692388f5.bindPopup(popup_75424b884af04a67978c74ad386d5a39)
+        ;
+
+        
+    
+    
+            var circle_marker_a52f41c887b14b22a21047f3d61c7fa6 = L.circleMarker(
+                [42.055116399999996, -87.67581113482166],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_4d2f86d52e2040d2a76771932411af5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31b4147113ce45998cd2c7576b23f4c3 = $(`<div id="html_31b4147113ce45998cd2c7576b23f4c3" style="width: 100.0%; height: 100.0%;">Northwestern University Cluster 2</div>`)[0];
+            popup_4d2f86d52e2040d2a76771932411af5f.setContent(html_31b4147113ce45998cd2c7576b23f4c3);
+        
+
+        circle_marker_a52f41c887b14b22a21047f3d61c7fa6.bindPopup(popup_4d2f86d52e2040d2a76771932411af5f)
+        ;
+
+        
+    
+    
+            var circle_marker_ce295d91fbc54d098337d28a79431320 = L.circleMarker(
+                [34.096326774999994, -117.71319861205757],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_2c0f353aae874025ac0f7612886775c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27028c2cd07e497aaea3f164726388f2 = $(`<div id="html_27028c2cd07e497aaea3f164726388f2" style="width: 100.0%; height: 100.0%;">Pomona College Cluster 5</div>`)[0];
+            popup_2c0f353aae874025ac0f7612886775c5.setContent(html_27028c2cd07e497aaea3f164726388f2);
+        
+
+        circle_marker_ce295d91fbc54d098337d28a79431320.bindPopup(popup_2c0f353aae874025ac0f7612886775c5)
+        ;
+
+        
+    
+    
+            var circle_marker_24692fbfe1f744f0a272e9392907f51f = L.circleMarker(
+                [40.342835075, -74.65800016680154],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_0194d4777480466ea66f6003a0a927fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b558914d8704a19bf4551719e39c76a = $(`<div id="html_7b558914d8704a19bf4551719e39c76a" style="width: 100.0%; height: 100.0%;">Princeton University Cluster 3</div>`)[0];
+            popup_0194d4777480466ea66f6003a0a927fd.setContent(html_7b558914d8704a19bf4551719e39c76a);
+        
+
+        circle_marker_24692fbfe1f744f0a272e9392907f51f.bindPopup(popup_0194d4777480466ea66f6003a0a927fd)
+        ;
+
+        
+    
+    
+            var circle_marker_ab52a224c8ea4e0fbc233f78251869ed = L.circleMarker(
+                [42.73280325, -73.67296098476673],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_cc0e687186b24de8b2468d01da5c9699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7abc29e20b14dacb96bfd373596b2fd = $(`<div id="html_e7abc29e20b14dacb96bfd373596b2fd" style="width: 100.0%; height: 100.0%;">Rensselaer Polytechnic Institute Cluster 2</div>`)[0];
+            popup_cc0e687186b24de8b2468d01da5c9699.setContent(html_e7abc29e20b14dacb96bfd373596b2fd);
+        
+
+        circle_marker_ab52a224c8ea4e0fbc233f78251869ed.bindPopup(popup_cc0e687186b24de8b2468d01da5c9699)
+        ;
+
+        
+    
+    
+            var circle_marker_71ef5196c54b48118ddef3e9f57617b8 = L.circleMarker(
+                [29.71679145, -95.40478113393793],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_7b6c9a304a464118a6e6aee93babaa69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6e0b7758f334040bd60956c40b90689 = $(`<div id="html_e6e0b7758f334040bd60956c40b90689" style="width: 100.0%; height: 100.0%;">Rice University Cluster 2</div>`)[0];
+            popup_7b6c9a304a464118a6e6aee93babaa69.setContent(html_e6e0b7758f334040bd60956c40b90689);
+        
+
+        circle_marker_71ef5196c54b48118ddef3e9f57617b8.bindPopup(popup_7b6c9a304a464118a6e6aee93babaa69)
+        ;
+
+        
+    
+    
+            var circle_marker_fdaa103f0468499a9bfa8b9b63d95beb = L.circleMarker(
+                [42.317918975, -72.6389881737058],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_83233ce41d314f70a7220db05d093b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4262fe1eed8f44a29d401b1ed89c28bb = $(`<div id="html_4262fe1eed8f44a29d401b1ed89c28bb" style="width: 100.0%; height: 100.0%;">Smith College Cluster 2</div>`)[0];
+            popup_83233ce41d314f70a7220db05d093b96.setContent(html_4262fe1eed8f44a29d401b1ed89c28bb);
+        
+
+        circle_marker_fdaa103f0468499a9bfa8b9b63d95beb.bindPopup(popup_83233ce41d314f70a7220db05d093b96)
+        ;
+
+        
+    
+    
+            var circle_marker_7eb1583ba74a479487d4e82fb873f1be = L.circleMarker(
+                [32.841801149999995, -96.78152810147064],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_c73b4c574b2e46b3b1d118d3c8c80342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7c7208491234d9e977141be672f517c = $(`<div id="html_c7c7208491234d9e977141be672f517c" style="width: 100.0%; height: 100.0%;">Southern Methodist University Cluster 1</div>`)[0];
+            popup_c73b4c574b2e46b3b1d118d3c8c80342.setContent(html_c7c7208491234d9e977141be672f517c);
+        
+
+        circle_marker_7eb1583ba74a479487d4e82fb873f1be.bindPopup(popup_c73b4c574b2e46b3b1d118d3c8c80342)
+        ;
+
+        
+    
+    
+            var circle_marker_585372147932404191e99f2aa01a6887 = L.circleMarker(
+                [37.4316091, -122.16936535498309],
+                {"bubblingMouseEvents": true, "color": "#b2f396", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2f396", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_dd4e29cc6657422d9a8fa9722193f365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59fed438752749c7b6fc46fbf2f825b4 = $(`<div id="html_59fed438752749c7b6fc46fbf2f825b4" style="width: 100.0%; height: 100.0%;">Stanford University Cluster 4</div>`)[0];
+            popup_dd4e29cc6657422d9a8fa9722193f365.setContent(html_59fed438752749c7b6fc46fbf2f825b4);
+        
+
+        circle_marker_585372147932404191e99f2aa01a6887.bindPopup(popup_dd4e29cc6657422d9a8fa9722193f365)
+        ;
+
+        
+    
+    
+            var circle_marker_b6dd385eaf0d41a88a03b4631612dcb8 = L.circleMarker(
+                [39.9026727, -75.35263152787849],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_abdc45eceb214d0c8132b464796ce860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87a3fdee8e9645c2b23240cb907e8288 = $(`<div id="html_87a3fdee8e9645c2b23240cb907e8288" style="width: 100.0%; height: 100.0%;">Swarthmore College Cluster 2</div>`)[0];
+            popup_abdc45eceb214d0c8132b464796ce860.setContent(html_87a3fdee8e9645c2b23240cb907e8288);
+        
+
+        circle_marker_b6dd385eaf0d41a88a03b4631612dcb8.bindPopup(popup_abdc45eceb214d0c8132b464796ce860)
+        ;
+
+        
+    
+    
+            var circle_marker_51f8dc4685bc464db12fa8878404a598 = L.circleMarker(
+                [42.40629165, -71.11819855889479],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_31c00c0700ab467a81097ff9a9a336ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e97fc9056f248b88992d0dd2a45380c = $(`<div id="html_7e97fc9056f248b88992d0dd2a45380c" style="width: 100.0%; height: 100.0%;">Tufts University Cluster 1</div>`)[0];
+            popup_31c00c0700ab467a81097ff9a9a336ca.setContent(html_7e97fc9056f248b88992d0dd2a45380c);
+        
+
+        circle_marker_51f8dc4685bc464db12fa8878404a598.bindPopup(popup_31c00c0700ab467a81097ff9a9a336ca)
+        ;
+
+        
+    
+    
+            var circle_marker_5604534050734828a08ca0178193dba6 = L.circleMarker(
+                [37.87094645, -122.26639872292525],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_e7370a9b96874ee0b2cd49f5c1f9a805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f42baee650ac4e3e8acb81f529669b8b = $(`<div id="html_f42baee650ac4e3e8acb81f529669b8b" style="width: 100.0%; height: 100.0%;">University of California - Berkeley Cluster 0</div>`)[0];
+            popup_e7370a9b96874ee0b2cd49f5c1f9a805.setContent(html_f42baee650ac4e3e8acb81f529669b8b);
+        
+
+        circle_marker_5604534050734828a08ca0178193dba6.bindPopup(popup_e7370a9b96874ee0b2cd49f5c1f9a805)
+        ;
+
+        
+    
+    
+            var circle_marker_73da7e704f574486ada79e0d624855bb = L.circleMarker(
+                [34.0708781, -118.44684973165106],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_86f9916f635b440db22e15232aea3227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b039d687a1c486d91310f1fd07a8f19 = $(`<div id="html_9b039d687a1c486d91310f1fd07a8f19" style="width: 100.0%; height: 100.0%;">University of California - Los Angeles Cluster 3</div>`)[0];
+            popup_86f9916f635b440db22e15232aea3227.setContent(html_9b039d687a1c486d91310f1fd07a8f19);
+        
+
+        circle_marker_73da7e704f574486ada79e0d624855bb.bindPopup(popup_86f9916f635b440db22e15232aea3227)
+        ;
+
+        
+    
+    
+            var circle_marker_858769c5b1d348c98de2084e2befe3c3 = L.circleMarker(
+                [34.4132691, -119.84745113175592],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_be025e7fbba1423ea18561286143b526 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2b2223cb3b54b288339e136feb86e9c = $(`<div id="html_c2b2223cb3b54b288339e136feb86e9c" style="width: 100.0%; height: 100.0%;">University of California - Santa Barbara Cluster 2</div>`)[0];
+            popup_be025e7fbba1423ea18561286143b526.setContent(html_c2b2223cb3b54b288339e136feb86e9c);
+        
+
+        circle_marker_858769c5b1d348c98de2084e2befe3c3.bindPopup(popup_be025e7fbba1423ea18561286143b526)
+        ;
+
+        
+    
+    
+            var circle_marker_d0455f4ebe7d4a33808e86a989ea5560 = L.circleMarker(
+                [41.7892454, -87.59771803592608],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_00878fd6fcbe4793a5c83558044b9387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2fe9dc5361940fa8649ed2211ad783e = $(`<div id="html_d2fe9dc5361940fa8649ed2211ad783e" style="width: 100.0%; height: 100.0%;">University of Chicago Cluster 5</div>`)[0];
+            popup_00878fd6fcbe4793a5c83558044b9387.setContent(html_d2fe9dc5361940fa8649ed2211ad783e);
+        
+
+        circle_marker_d0455f4ebe7d4a33808e86a989ea5560.bindPopup(popup_00878fd6fcbe4793a5c83558044b9387)
+        ;
+
+        
+    
+    
+            var circle_marker_9bb57f0935464fd1a5fad2371d1aab98 = L.circleMarker(
+                [29.635923, -82.37021349645454],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_8e12583c26ca477991b737221daa6eff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c1b6eaa796e4aeb875b86afabb88fc3 = $(`<div id="html_0c1b6eaa796e4aeb875b86afabb88fc3" style="width: 100.0%; height: 100.0%;">University of Florida Cluster 2</div>`)[0];
+            popup_8e12583c26ca477991b737221daa6eff.setContent(html_0c1b6eaa796e4aeb875b86afabb88fc3);
+        
+
+        circle_marker_9bb57f0935464fd1a5fad2371d1aab98.bindPopup(popup_8e12583c26ca477991b737221daa6eff)
+        ;
+
+        
+    
+    
+            var circle_marker_b64baa0b02c74707b53e67c9f49c1f09 = L.circleMarker(
+                [33.9425116, -83.37339522494148],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_770665f4305f44e5b3d5af00778567f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b12c62660c02446db2609b49bb9c61c7 = $(`<div id="html_b12c62660c02446db2609b49bb9c61c7" style="width: 100.0%; height: 100.0%;">University of Georgia Cluster 2</div>`)[0];
+            popup_770665f4305f44e5b3d5af00778567f5.setContent(html_b12c62660c02446db2609b49bb9c61c7);
+        
+
+        circle_marker_b64baa0b02c74707b53e67c9f49c1f09.bindPopup(popup_770665f4305f44e5b3d5af00778567f5)
+        ;
+
+        
+    
+    
+            var circle_marker_de1522a3f01649d4b4d1de0c68efe139 = L.circleMarker(
+                [40.101976, -88.23131507323532],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_de9c11504e43448c8b60fddde5c2d890 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37315c88668d47e1b24b5b4b8a1c52f2 = $(`<div id="html_37315c88668d47e1b24b5b4b8a1c52f2" style="width: 100.0%; height: 100.0%;">University of Illinois at Urbana-Champaign Cluster 2</div>`)[0];
+            popup_de9c11504e43448c8b60fddde5c2d890.setContent(html_37315c88668d47e1b24b5b4b8a1c52f2);
+        
+
+        circle_marker_de1522a3f01649d4b4d1de0c68efe139.bindPopup(popup_de9c11504e43448c8b60fddde5c2d890)
+        ;
+
+        
+    
+    
+            var circle_marker_bb15ecabf5a14d79a0361e5d4b31b806 = L.circleMarker(
+                [25.7133985, -80.27869157646253],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_62e214a44c514bceb3098f67d232f1fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b188d1912da4d2b8491a37a250967cf = $(`<div id="html_5b188d1912da4d2b8491a37a250967cf" style="width: 100.0%; height: 100.0%;">University of Miami Cluster 2</div>`)[0];
+            popup_62e214a44c514bceb3098f67d232f1fa.setContent(html_5b188d1912da4d2b8491a37a250967cf);
+        
+
+        circle_marker_bb15ecabf5a14d79a0361e5d4b31b806.bindPopup(popup_62e214a44c514bceb3098f67d232f1fa)
+        ;
+
+        
+    
+    
+            var circle_marker_825cf24e77574e049950ebf32a3792c8 = L.circleMarker(
+                [42.278856700000006, -83.7342551],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_93af160145b4480fae5873712f9a0ce5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0486155b473483581c8884c480611cc = $(`<div id="html_f0486155b473483581c8884c480611cc" style="width: 100.0%; height: 100.0%;">University of Michigan - Ann Arbor Cluster 5</div>`)[0];
+            popup_93af160145b4480fae5873712f9a0ce5.setContent(html_f0486155b473483581c8884c480611cc);
+        
+
+        circle_marker_825cf24e77574e049950ebf32a3792c8.bindPopup(popup_93af160145b4480fae5873712f9a0ce5)
+        ;
+
+        
+    
+    
+            var circle_marker_7011fb9d387c4c63b179e30b5cb553fe = L.circleMarker(
+                [35.907407725, -79.04780578262555],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_8aefe83df5cc4f32bae1370a4145b31c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27db5e96bb8e41a28b87053d1523d7a6 = $(`<div id="html_27db5e96bb8e41a28b87053d1523d7a6" style="width: 100.0%; height: 100.0%;">University of North Carolina at Chapel Hill Cluster 1</div>`)[0];
+            popup_8aefe83df5cc4f32bae1370a4145b31c.setContent(html_27db5e96bb8e41a28b87053d1523d7a6);
+        
+
+        circle_marker_7011fb9d387c4c63b179e30b5cb553fe.bindPopup(popup_8aefe83df5cc4f32bae1370a4145b31c)
+        ;
+
+        
+    
+    
+            var circle_marker_9360b3f1d1bd4aefb192360ff0584c98 = L.circleMarker(
+                [41.70456775, -86.23822026017265],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_4efc60babe85489da3fe0fc06f7fd5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d3062566e1f431f87e0c4004974417c = $(`<div id="html_3d3062566e1f431f87e0c4004974417c" style="width: 100.0%; height: 100.0%;">University of Notre Dame Cluster 2</div>`)[0];
+            popup_4efc60babe85489da3fe0fc06f7fd5c0.setContent(html_3d3062566e1f431f87e0c4004974417c);
+        
+
+        circle_marker_9360b3f1d1bd4aefb192360ff0584c98.bindPopup(popup_4efc60babe85489da3fe0fc06f7fd5c0)
+        ;
+
+        
+    
+    
+            var circle_marker_972c3428415d4bfe8b86755e3e7aa942 = L.circleMarker(
+                [39.9492849, -75.19291418251628],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_7863558f6a11423d9050925e0b1fed8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd8115998eb64f1a9b4e55c3819d258c = $(`<div id="html_dd8115998eb64f1a9b4e55c3819d258c" style="width: 100.0%; height: 100.0%;">University of Pennsylvania Cluster 5</div>`)[0];
+            popup_7863558f6a11423d9050925e0b1fed8d.setContent(html_dd8115998eb64f1a9b4e55c3819d258c);
+        
+
+        circle_marker_972c3428415d4bfe8b86755e3e7aa942.bindPopup(popup_7863558f6a11423d9050925e0b1fed8d)
+        ;
+
+        
+    
+    
+            var circle_marker_4af503504dda45b9995f11caaeeac150 = L.circleMarker(
+                [37.57586225, -77.54129937158409],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_5e9a07a3f0c8414283e40fbe7d957289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1b962cddef14ec6a7469d29ab512dae = $(`<div id="html_e1b962cddef14ec6a7469d29ab512dae" style="width: 100.0%; height: 100.0%;">University of Richmond Cluster 2</div>`)[0];
+            popup_5e9a07a3f0c8414283e40fbe7d957289.setContent(html_e1b962cddef14ec6a7469d29ab512dae);
+        
+
+        circle_marker_4af503504dda45b9995f11caaeeac150.bindPopup(popup_5e9a07a3f0c8414283e40fbe7d957289)
+        ;
+
+        
+    
+    
+            var circle_marker_9de41958a3f247f8b5ed62a3ad1ce08f = L.circleMarker(
+                [43.1302114, -77.62642594716263],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_a23e555c71ce4f7d929884a5845878a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce5a1e8619ba40c48803d5a31f889c0a = $(`<div id="html_ce5a1e8619ba40c48803d5a31f889c0a" style="width: 100.0%; height: 100.0%;">University of Rochester Cluster 1</div>`)[0];
+            popup_a23e555c71ce4f7d929884a5845878a9.setContent(html_ce5a1e8619ba40c48803d5a31f889c0a);
+        
+
+        circle_marker_9de41958a3f247f8b5ed62a3ad1ce08f.bindPopup(popup_a23e555c71ce4f7d929884a5845878a9)
+        ;
+
+        
+    
+    
+            var circle_marker_5fe45b5793c54f41aa3c1cf631fff8fa = L.circleMarker(
+                [34.02024625, -118.28660743457544],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_f86b1594383a4f9ea7f62634bab825c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fede2468049e4b148241b2ea5d78c107 = $(`<div id="html_fede2468049e4b148241b2ea5d78c107" style="width: 100.0%; height: 100.0%;">University of Southern California Cluster 5</div>`)[0];
+            popup_f86b1594383a4f9ea7f62634bab825c3.setContent(html_fede2468049e4b148241b2ea5d78c107);
+        
+
+        circle_marker_5fe45b5793c54f41aa3c1cf631fff8fa.bindPopup(popup_f86b1594383a4f9ea7f62634bab825c3)
+        ;
+
+        
+    
+    
+            var circle_marker_571cbdbcf4984c6a9e5afd3101f56315 = L.circleMarker(
+                [30.284304499999998, -97.73308329040108],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_3965145c960a4ad1993209116284b61d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd7faf9f76b3437d9fe9caa1b298f046 = $(`<div id="html_cd7faf9f76b3437d9fe9caa1b298f046" style="width: 100.0%; height: 100.0%;">University of Texas - Austin Cluster 1</div>`)[0];
+            popup_3965145c960a4ad1993209116284b61d.setContent(html_cd7faf9f76b3437d9fe9caa1b298f046);
+        
+
+        circle_marker_571cbdbcf4984c6a9e5afd3101f56315.bindPopup(popup_3965145c960a4ad1993209116284b61d)
+        ;
+
+        
+    
+    
+            var circle_marker_d5f2a7322e634e1fb2ef8888d61b34d1 = L.circleMarker(
+                [38.03971165, -78.50424855091785],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_49b734add8c14e14b19bb2a2f4292b0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b249cd4f03e44078756227a4062c966 = $(`<div id="html_8b249cd4f03e44078756227a4062c966" style="width: 100.0%; height: 100.0%;">University of Virginia Cluster 2</div>`)[0];
+            popup_49b734add8c14e14b19bb2a2f4292b0a.setContent(html_8b249cd4f03e44078756227a4062c966);
+        
+
+        circle_marker_d5f2a7322e634e1fb2ef8888d61b34d1.bindPopup(popup_49b734add8c14e14b19bb2a2f4292b0a)
+        ;
+
+        
+    
+    
+            var circle_marker_e7cd5b576b3c49e4bfd1c0578553aa43 = L.circleMarker(
+                [43.07768529999999, -89.4176223],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_84dfb51220024d79a2d81a0b30504b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_477f8fe6fce749d0a4ef1dca73054879 = $(`<div id="html_477f8fe6fce749d0a4ef1dca73054879" style="width: 100.0%; height: 100.0%;">University of Wisconsin - Madison Cluster 2</div>`)[0];
+            popup_84dfb51220024d79a2d81a0b30504b2a.setContent(html_477f8fe6fce749d0a4ef1dca73054879);
+        
+
+        circle_marker_e7cd5b576b3c49e4bfd1c0578553aa43.bindPopup(popup_84dfb51220024d79a2d81a0b30504b2a)
+        ;
+
+        
+    
+    
+            var circle_marker_c37143ec28354f47a242b02c10bf122c = L.circleMarker(
+                [41.686521925, -73.89462392510217],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_32d4d8b53f7643968869fb7294b5a9bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab28ea8fc7b8483fad7c5cb03e1b54a3 = $(`<div id="html_ab28ea8fc7b8483fad7c5cb03e1b54a3" style="width: 100.0%; height: 100.0%;">Vassar College Cluster 2</div>`)[0];
+            popup_32d4d8b53f7643968869fb7294b5a9bb.setContent(html_ab28ea8fc7b8483fad7c5cb03e1b54a3);
+        
+
+        circle_marker_c37143ec28354f47a242b02c10bf122c.bindPopup(popup_32d4d8b53f7643968869fb7294b5a9bb)
+        ;
+
+        
+    
+    
+            var circle_marker_0e9ccf169e464882869cacb67a1c99db = L.circleMarker(
+                [37.22824465, -80.41934284999998],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_ffa9a948533d41dc81fb8a12a4e4b8c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0556cca8dde494ab636afef950b4bc0 = $(`<div id="html_d0556cca8dde494ab636afef950b4bc0" style="width: 100.0%; height: 100.0%;">Virginia Tech Cluster 5</div>`)[0];
+            popup_ffa9a948533d41dc81fb8a12a4e4b8c0.setContent(html_d0556cca8dde494ab636afef950b4bc0);
+        
+
+        circle_marker_0e9ccf169e464882869cacb67a1c99db.bindPopup(popup_ffa9a948533d41dc81fb8a12a4e4b8c0)
+        ;
+
+        
+    
+    
+            var circle_marker_2933cbd1796146a1b1549595ee4f1d49 = L.circleMarker(
+                [36.13411397500001, -80.27683649563843],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_321a3780ffe9481f90d91faf1ce8e7eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ab19a81e6334ff1851756ef9ffaa77f = $(`<div id="html_4ab19a81e6334ff1851756ef9ffaa77f" style="width: 100.0%; height: 100.0%;">Wake Forest University Cluster 2</div>`)[0];
+            popup_321a3780ffe9481f90d91faf1ce8e7eb.setContent(html_4ab19a81e6334ff1851756ef9ffaa77f);
+        
+
+        circle_marker_2933cbd1796146a1b1549595ee4f1d49.bindPopup(popup_321a3780ffe9481f90d91faf1ce8e7eb)
+        ;
+
+        
+    
+    
+            var circle_marker_2b5071928c174911bd23b3f493b64e94 = L.circleMarker(
+                [38.6502018, -90.31144809999999],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_5208c4f2af0f4a6288940c335d9be786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eca1d59ebd045479234c6ffbdb0d279 = $(`<div id="html_1eca1d59ebd045479234c6ffbdb0d279" style="width: 100.0%; height: 100.0%;">Washington University in St. Louis Cluster 2</div>`)[0];
+            popup_5208c4f2af0f4a6288940c335d9be786.setContent(html_1eca1d59ebd045479234c6ffbdb0d279);
+        
+
+        circle_marker_2b5071928c174911bd23b3f493b64e94.bindPopup(popup_5208c4f2af0f4a6288940c335d9be786)
+        ;
+
+        
+    
+    
+            var circle_marker_761f2b848375475488310733a3a33483 = L.circleMarker(
+                [42.29177605, -71.3032751636105],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_7535c3f3b40f4d5f84dfb27edb3fab14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05ce20d7921a476c8dbf7218667c9bd5 = $(`<div id="html_05ce20d7921a476c8dbf7218667c9bd5" style="width: 100.0%; height: 100.0%;">Wellesley College Cluster 2</div>`)[0];
+            popup_7535c3f3b40f4d5f84dfb27edb3fab14.setContent(html_05ce20d7921a476c8dbf7218667c9bd5);
+        
+
+        circle_marker_761f2b848375475488310733a3a33483.bindPopup(popup_7535c3f3b40f4d5f84dfb27edb3fab14)
+        ;
+
+        
+    
+    
+            var circle_marker_872362f5523f44828c160574c1d1e95a = L.circleMarker(
+                [41.5559033, -72.65598837715102],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_9430fdce23804162b741bf8d3f4c3c53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ab170a6eebc449cb629319aa0978a3f = $(`<div id="html_7ab170a6eebc449cb629319aa0978a3f" style="width: 100.0%; height: 100.0%;">Wesleyan University Cluster 2</div>`)[0];
+            popup_9430fdce23804162b741bf8d3f4c3c53.setContent(html_7ab170a6eebc449cb629319aa0978a3f);
+        
+
+        circle_marker_872362f5523f44828c160574c1d1e95a.bindPopup(popup_9430fdce23804162b741bf8d3f4c3c53)
+        ;
+
+        
+    
+    
+            var circle_marker_99cecd70931742ddaca08bac7ab0212d = L.circleMarker(
+                [41.3124042, -72.92566039270302],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_36552e1914fb458b85d3bbbc5f44549e);
+        
+    
+        var popup_07f442d591b647989b35cdb6f30b9669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9253ce941f94e5ca05bb4dfbd9362b4 = $(`<div id="html_a9253ce941f94e5ca05bb4dfbd9362b4" style="width: 100.0%; height: 100.0%;">Yale University Cluster 5</div>`)[0];
+            popup_07f442d591b647989b35cdb6f30b9669.setContent(html_a9253ce941f94e5ca05bb4dfbd9362b4);
+        
+
+        circle_marker_99cecd70931742ddaca08bac7ab0212d.bindPopup(popup_07f442d591b647989b35cdb6f30b9669)
+        ;
+
+        
+    
+</script>
