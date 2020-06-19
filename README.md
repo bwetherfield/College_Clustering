@@ -9,3 +9,4 @@ For this capstone project, I have chosen to do some exploratory data science inv
 
 To follow or reproduce the code in this project, start [here](https://github.com/bwetherfield/College_Clustering/blob/master/Analysis_Roadmap.ipynb). This link will take you to Analysis_Roadmap.ipynb, contains further links to other notebooks in the project.
 
+The accompanying report is hosted [here](https://bwetherfield.github.io/College_Clustering/).
