@@ -1,4 +1,4 @@
-# Coursera Capstone
+# Coursera/IBM Applied Data Science Capstone
 
 This is the repository for my Coursera/IBM Applied Data Science Capstone Submission. It is the final instalment of a 9-course Professional Certificate in Data Science housed by Coursera with course content provided by IBM.
 
